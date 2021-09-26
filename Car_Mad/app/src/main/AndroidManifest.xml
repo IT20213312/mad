@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.car_mad">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Car_Mad">
+        <activity android:name=".BookUpdate" />
+        <activity android:name=".BookList"
+            android:parentActivityName=".Dashboard"
+            android:label="My Booking"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"></activity>
+        <activity android:name=".bookCar" />
+        <activity android:name=".RentCarUpdate" />
+        <activity android:name=".RentList"
+            android:parentActivityName=".Dashboard"
+            android:label="My Rented Vehicles"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"></activity>
+        <activity android:name=".AddRent" />
+        <activity android:name=".profile" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".signUp" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

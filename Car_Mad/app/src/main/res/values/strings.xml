@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Cuber</string>
+    <string name="password">Password</string>
+    <string name="email_id">Email Id</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="Signup">Sign Up</string>
+    <string name="dashboard">Dash Board</string>
+    <string name="RentCar">Rent Car</string>
+    <string name="rentList">Rent List</string>
+    <string name="bookCar">Book Car</string>
+    <string name="bookList">Book List</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="registrationNo">Registration No</string>
+    <string name="Description">Description</string>
+    <string name="Add">Add</string>
+    <string name="RenturCar">Rent Your Car</string>
+    <string name="location">Location</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="days">Days</string>
+    <string name="totAmount">Total Amount</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+
+
+</resources>

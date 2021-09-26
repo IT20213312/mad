@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bookCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="9dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:textColor="@color/white"
+                android:paddingStart="5dp"
+
+                android:layout_marginTop="50dp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:textColor="@color/white"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="50dp"
+            android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/days"
+            android:textColor="@color/white"
+            android:paddingStart="5dp"
+            android:paddingTop="5dp"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="50dp"
+            android:textSize="15dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location"
+                android:textColor="@color/white"
+                android:paddingStart="5dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/totalAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/totAmount"
+                android:textColor="@color/white"
+                android:paddingStart="5dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
